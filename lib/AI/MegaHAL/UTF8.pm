@@ -6,6 +6,8 @@ use warnings;
 use parent 'AI::MegaHAL';
 use Encode qw/encode_utf8 decode_utf8/;
 
+our $VERSION = '0.01';
+
 sub do_reply {
   my $self = shift;
   my $in = shift || '';
